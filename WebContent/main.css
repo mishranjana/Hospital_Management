@@ -1,0 +1,185 @@
+@CHARSET "UTF-8";
+
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  .nav-back{
+      background: #239f85;
+      color: #fff;
+  }
+  .navbar-brand{
+    color: #000;
+  }
+  .navbar-brand:hover{
+    color: #fff;
+  }
+  .nav-link{
+    color: #000;
+  }
+  .nav-link:hover{
+    color:#fff;
+  }
+  .navbar-toggler{
+    outline: none!important;
+  }
+  .header{
+    padding: 1rem 7%;
+    background-color: var(--mainclr);
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+}
+.header #logo{
+    width: 50px;
+}
+
+
+.card {
+    width: 330px;
+    height: 330px;
+    background: rgb(183, 226, 25);
+    font-family: inherit;
+   }
+   
+   .quote {
+    color: rgb(223, 248, 134);
+    padding-left: 30px;
+    position: relative;
+   }
+   
+
+   
+   .card-name {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(158, 196, 21);
+    padding: 35px;
+   }
+   
+   .body-text {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 60px 40px 0;
+    color: #465512;
+    position: absolute;
+    top: 2vw;
+    left: 1vw;
+   }
+   
+   .author {
+    margin-top: 5px;
+    opacity: 0;
+    transition: 0.5s;
+   }
+   
+   .card:hover .author {
+    opacity: 1;
+   }
+   
+   .pic {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(158, 196, 21);
+    border-radius: 50%;
+   }
+   
+   .author-container {
+    display: flex;
+    align-items: center;
+   }
+   
+   .author {
+    font-weight: 700;
+    color: rgb(158, 196, 21);
+    padding-left: 30px;
+   }
+
+
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  #hero {
+      width: 100%;
+      height: 80vh;
+      background: url("./images/doctor-g024485840_1920.jpg") center center;
+      background-size: cover;
+      position: relative;
+    }
+    
+    #hero .container {
+      padding-top: 80px;
+    }
+    
+    #hero:before {
+      content: "";
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    
+    #hero h1 {
+      margin: 0 0 10px 0;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+    }
+    
+    #hero h2 {
+      color: #eee;
+      margin-bottom: 40px;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: "Open Sans", sans-serif;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    
+    .main-btn {
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 50px;
+      transition: 0.5s;
+      margin: 10px;
+      border: 2px solid #fff;
+      color: #fff;
+    }
+    
+     .main-btn:hover {
+      background:#ff5d22;
+      border: 2px solid #239f85;
+      text-decoration: none;
+      color:#fff;
+    }
+   .form-group .btn-form{
+    background: #239f85;
+    border: 2px solid#239f85;
+    text-decoration: none;
+    color:#000;
+   }
+   
+.footer {
+        text-align: center;
+        font-size: 0.9rem;
+        background:#239f85;
+      }
+      .footer .btn-back{
+        background: #fff;
+        color:#239f85;
+      }
+      .footer .text{
+        color: #000;
+      }
+      
+      @CHARSET "ISO-8859-1";
